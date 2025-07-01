@@ -18,8 +18,8 @@ train_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
-    img_folder: /home/op/rs/cv_pipeline-training/run/data/CAR-FEATURES_new/train/
-    ann_file: /home/op/rs/cv_pipeline-training/run/data/CAR-FEATURES_new/train/annotations/train.json
+    img_folder: data/CAR-FEATURES_new/train/
+    ann_file: data/CAR-FEATURES_new/train/annotations/train.json
     return_masks: False
     transforms:
       type: Compose
@@ -35,8 +35,8 @@ val_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
-    img_folder: /home/op/rs/cv_pipeline-training/run/data/CAR-FEATURES_new/train/
-    ann_file: /home/op/rs/cv_pipeline-training/run/data/CAR-FEATURES_new/train/annotations/train_val.json
+    img_folder: data/CAR-FEATURES_new/train/
+    ann_file: data/CAR-FEATURES_new/train/annotations/train_val.json
     return_masks: False
     transforms:
       type: Compose
