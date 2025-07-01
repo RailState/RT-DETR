@@ -11,7 +11,8 @@ evaluator:
 # remap_mscoco_category: False
 
 ### XXX num_classes: 80
-remap_mscoco_category: True
+num_classes: 64
+remap_mscoco_category: False
 
 
 train_dataloader: 
