@@ -11,7 +11,7 @@ evaluator:
 # remap_mscoco_category: False
 
 ### XXX num_classes: 80
-num_classes: 64
+num_classes: 56
 remap_mscoco_category: False
 
 
